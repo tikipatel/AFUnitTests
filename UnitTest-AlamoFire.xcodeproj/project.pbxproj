@@ -15,6 +15,9 @@
 		31E969F51D479C6500586A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E969D81D4796D700586A9E /* Main.storyboard */; };
 		31E969F61D479CBA00586A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969D61D4796D700586A9E /* ViewController.swift */; };
 		31E969F81D47A30D00586A9E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969F71D47A30D00586A9E /* NetworkManager.swift */; };
+		31E969FA1D47B5FA00586A9E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969F91D47B5FA00586A9E /* Weather.swift */; };
+		31E969FC1D47BB0500586A9E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969FB1D47BB0500586A9E /* DateFormatter.swift */; };
+		31E969FE1D47D44500586A9E /* weather.json in Resources */ = {isa = PBXBuildFile; fileRef = 31E969FD1D47D44500586A9E /* weather.json */; };
 		384DE2E2A3641CEC677CC322 /* Pods_UnitTest_AlamoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96281D60FB54B3A357624D75 /* Pods_UnitTest_AlamoFire.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +43,9 @@
 		31E969E91D4796D800586A9E /* UnitTest_AlamoFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_AlamoFireTests.swift; sourceTree = "<group>"; };
 		31E969EB1D4796D800586A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31E969F71D47A30D00586A9E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		31E969F91D47B5FA00586A9E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		31E969FB1D47BB0500586A9E /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		31E969FD1D47D44500586A9E /* weather.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weather.json; sourceTree = "<group>"; };
 		74CF9E405C5D263AD88C552C /* Pods-UnitTest-AlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTest-AlamoFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTest-AlamoFire/Pods-UnitTest-AlamoFire.release.xcconfig"; sourceTree = "<group>"; };
 		96281D60FB54B3A357624D75 /* Pods_UnitTest_AlamoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTest_AlamoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE11553956906D54C3F935EA /* Pods-UnitTest-AlamoFireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTest-AlamoFireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTest-AlamoFireTests/Pods-UnitTest-AlamoFireTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +100,8 @@
 				31E969D41D4796D700586A9E /* AppDelegate.swift */,
 				31E969D61D4796D700586A9E /* ViewController.swift */,
 				31E969F71D47A30D00586A9E /* NetworkManager.swift */,
+				31E969F91D47B5FA00586A9E /* Weather.swift */,
+				31E969FB1D47BB0500586A9E /* DateFormatter.swift */,
 				31E969D81D4796D700586A9E /* Main.storyboard */,
 				31E969DB1D4796D700586A9E /* Assets.xcassets */,
 				31E969DD1D4796D700586A9E /* LaunchScreen.storyboard */,
@@ -106,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				31E969E91D4796D800586A9E /* UnitTest_AlamoFireTests.swift */,
+				31E969FD1D47D44500586A9E /* weather.json */,
 				31E969EB1D4796D800586A9E /* Info.plist */,
 			);
 			path = "UnitTest-AlamoFireTests";
@@ -228,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E969FE1D47D44500586A9E /* weather.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +341,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E969FA1D47B5FA00586A9E /* Weather.swift in Sources */,
 				31E969F81D47A30D00586A9E /* NetworkManager.swift in Sources */,
 				31E969F61D479CBA00586A9E /* ViewController.swift in Sources */,
 				31E969D51D4796D700586A9E /* AppDelegate.swift in Sources */,
+				31E969FC1D47BB0500586A9E /* DateFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

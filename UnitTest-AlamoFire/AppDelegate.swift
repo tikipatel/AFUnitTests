@@ -13,9 +13,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    let dateFormatter = DateFormatter.sharedInstance
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        NetworkManager.sharedInstance.user = "Application"
+        
+        let dateString = "2016-07-26T20:19:56-05:00"
+        let myDate = dateFormatter.getDateFromFormat(.ISO8601, string: dateString)
+        
+//        let weatherProperties = Mirror(reflecting: Weather(time: myDate!)).children.flatMap { $0.label }
+        
+//        for _ in 0...1000 {
+//            print(NSDate())
+//        }
+        print(myDate)
         return true
     }
 

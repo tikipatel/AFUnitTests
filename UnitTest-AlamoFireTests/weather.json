@@ -1,0 +1,19 @@
+{
+    "time": 1469553771,
+    "summary": "Partly Cloudy",
+    "icon": "partly-cloudy-day",
+    "nearestStormDistance": 360,
+    "nearestStormBearing": 140,
+    "precipitationIntensity": 0,
+    "precipProbability": 0,
+    "temperature": 63.18,
+    "apparentTemperature": 63.18,
+    "dewPoint": 51.45,
+    "humidity": 0.66,
+    "windSpeed": 4.11,
+    "windBearing": 259,
+    "visibility": 9.03,
+    "cloudCover": 0.3,
+    "pressure": 1013.52,
+    "ozone": 282.34
+}
