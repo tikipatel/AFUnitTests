@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155661D88193F0356C3FA819 /* Pods_UnitTest_AlamoFireTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9342411F0FA81B83EE334AE /* Pods_UnitTest_AlamoFireTests.framework */; };
 		31E969D51D4796D700586A9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969D41D4796D700586A9E /* AppDelegate.swift */; };
-		31E969D71D4796D700586A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969D61D4796D700586A9E /* ViewController.swift */; };
-		31E969DA1D4796D700586A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E969D81D4796D700586A9E /* Main.storyboard */; };
 		31E969DC1D4796D700586A9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31E969DB1D4796D700586A9E /* Assets.xcassets */; };
 		31E969DF1D4796D700586A9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E969DD1D4796D700586A9E /* LaunchScreen.storyboard */; };
 		31E969EA1D4796D800586A9E /* UnitTest_AlamoFireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969E91D4796D800586A9E /* UnitTest_AlamoFireTests.swift */; };
+		31E969F51D479C6500586A9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31E969D81D4796D700586A9E /* Main.storyboard */; };
+		31E969F61D479CBA00586A9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E969D61D4796D700586A9E /* ViewController.swift */; };
+		384DE2E2A3641CEC677CC322 /* Pods_UnitTest_AlamoFire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96281D60FB54B3A357624D75 /* Pods_UnitTest_AlamoFire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		31E969E51D4796D800586A9E /* UnitTest-AlamoFireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnitTest-AlamoFireTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E969E91D4796D800586A9E /* UnitTest_AlamoFireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTest_AlamoFireTests.swift; sourceTree = "<group>"; };
 		31E969EB1D4796D800586A9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74CF9E405C5D263AD88C552C /* Pods-UnitTest-AlamoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTest-AlamoFire.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTest-AlamoFire/Pods-UnitTest-AlamoFire.release.xcconfig"; sourceTree = "<group>"; };
+		96281D60FB54B3A357624D75 /* Pods_UnitTest_AlamoFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTest_AlamoFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE11553956906D54C3F935EA /* Pods-UnitTest-AlamoFireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTest-AlamoFireTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTest-AlamoFireTests/Pods-UnitTest-AlamoFireTests.release.xcconfig"; sourceTree = "<group>"; };
+		D12FEC7D372157DC7E274A97 /* Pods-UnitTest-AlamoFireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTest-AlamoFireTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTest-AlamoFireTests/Pods-UnitTest-AlamoFireTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F9342411F0FA81B83EE334AE /* Pods_UnitTest_AlamoFireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTest_AlamoFireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB1B582C2B6BF6F9FD9AE59 /* Pods-UnitTest-AlamoFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTest-AlamoFire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTest-AlamoFire/Pods-UnitTest-AlamoFire.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384DE2E2A3641CEC677CC322 /* Pods_UnitTest_AlamoFire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155661D88193F0356C3FA819 /* Pods_UnitTest_AlamoFireTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				31E969D31D4796D700586A9E /* UnitTest-AlamoFire */,
 				31E969E81D4796D800586A9E /* UnitTest-AlamoFireTests */,
 				31E969D21D4796D700586A9E /* Products */,
+				D202FF7BCDD02426C7386DAD /* Pods */,
+				9A3692D9BBAE9C823797951B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = "UnitTest-AlamoFireTests";
 			sourceTree = "<group>";
 		};
+		9A3692D9BBAE9C823797951B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96281D60FB54B3A357624D75 /* Pods_UnitTest_AlamoFire.framework */,
+				F9342411F0FA81B83EE334AE /* Pods_UnitTest_AlamoFireTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D202FF7BCDD02426C7386DAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFB1B582C2B6BF6F9FD9AE59 /* Pods-UnitTest-AlamoFire.debug.xcconfig */,
+				74CF9E405C5D263AD88C552C /* Pods-UnitTest-AlamoFire.release.xcconfig */,
+				D12FEC7D372157DC7E274A97 /* Pods-UnitTest-AlamoFireTests.debug.xcconfig */,
+				AE11553956906D54C3F935EA /* Pods-UnitTest-AlamoFireTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31E969EE1D4796D800586A9E /* Build configuration list for PBXNativeTarget "UnitTest-AlamoFire" */;
 			buildPhases = (
+				52D3CEB95E8549775C463A85 /* [CP] Check Pods Manifest.lock */,
 				31E969CD1D4796D700586A9E /* Sources */,
 				31E969CE1D4796D700586A9E /* Frameworks */,
 				31E969CF1D4796D700586A9E /* Resources */,
+				E22755B0FF6DC1A00AB94E06 /* [CP] Embed Pods Frameworks */,
+				97D34FED9DDC24D4619FA1F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31E969F11D4796D800586A9E /* Build configuration list for PBXNativeTarget "UnitTest-AlamoFireTests" */;
 			buildPhases = (
+				5CA757B29EF48FDA030AD0AE /* [CP] Check Pods Manifest.lock */,
 				31E969E11D4796D800586A9E /* Sources */,
 				31E969E21D4796D800586A9E /* Frameworks */,
 				31E969E31D4796D800586A9E /* Resources */,
+				8E013822BC91B1E234CCDD0A /* [CP] Embed Pods Frameworks */,
+				557721D32C6DBEC37B680C30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,9 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E969F51D479C6500586A9E /* Main.storyboard in Resources */,
 				31E969DF1D4796D700586A9E /* LaunchScreen.storyboard in Resources */,
 				31E969DC1D4796D700586A9E /* Assets.xcassets in Resources */,
-				31E969DA1D4796D700586A9E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,12 +230,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52D3CEB95E8549775C463A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		557721D32C6DBEC37B680C30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTest-AlamoFireTests/Pods-UnitTest-AlamoFireTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA757B29EF48FDA030AD0AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E013822BC91B1E234CCDD0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTest-AlamoFireTests/Pods-UnitTest-AlamoFireTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97D34FED9DDC24D4619FA1F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTest-AlamoFire/Pods-UnitTest-AlamoFire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E22755B0FF6DC1A00AB94E06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitTest-AlamoFire/Pods-UnitTest-AlamoFire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31E969CD1D4796D700586A9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E969D71D4796D700586A9E /* ViewController.swift in Sources */,
+				31E969F61D479CBA00586A9E /* ViewController.swift in Sources */,
 				31E969D51D4796D700586A9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +458,7 @@
 		};
 		31E969EF1D4796D800586A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB1B582C2B6BF6F9FD9AE59 /* Pods-UnitTest-AlamoFire.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UnitTest-AlamoFire/Info.plist";
@@ -338,6 +470,7 @@
 		};
 		31E969F01D4796D800586A9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CF9E405C5D263AD88C552C /* Pods-UnitTest-AlamoFire.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "UnitTest-AlamoFire/Info.plist";
@@ -349,6 +482,7 @@
 		};
 		31E969F21D4796D800586A9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12FEC7D372157DC7E274A97 /* Pods-UnitTest-AlamoFireTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "UnitTest-AlamoFireTests/Info.plist";
@@ -361,6 +495,7 @@
 		};
 		31E969F31D4796D800586A9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE11553956906D54C3F935EA /* Pods-UnitTest-AlamoFireTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "UnitTest-AlamoFireTests/Info.plist";
@@ -390,6 +525,7 @@
 				31E969F01D4796D800586A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31E969F11D4796D800586A9E /* Build configuration list for PBXNativeTarget "UnitTest-AlamoFireTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +534,7 @@
 				31E969F31D4796D800586A9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
